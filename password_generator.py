@@ -3,8 +3,8 @@ import random
 chars= "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%&*()"     
 
 while 1:
-    password_len = int(input("Comprimento da senha: "))                            
-    password_count = int(input("Quantas senhas você quer gerar: "))      
+    password_len = int(input("Password length: "))                            
+    password_count = int(input("How many passwords do you want: "))      
     for x in range(0, password_count):
         password = ""
         for x in range(0,password_len):
